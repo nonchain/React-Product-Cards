@@ -17,7 +17,7 @@ const GamerDetails = ({ fullName, group, role, joinDate, city, country, classNam
             </div>
          </div>
 
-         <GameAward />
+         <GameAward className={'h-full mt-8'}/>
          
       </div>
    )
