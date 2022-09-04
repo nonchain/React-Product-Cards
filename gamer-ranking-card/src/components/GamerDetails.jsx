@@ -1,4 +1,5 @@
 import React from 'react'
+import GameAward from './GameAward'
 
 const GamerDetails = ({ fullName, group, role, joinDate, city, country, className }) => {
    return (
@@ -15,6 +16,8 @@ const GamerDetails = ({ fullName, group, role, joinDate, city, country, classNam
                <span className='text-sm font-medium text-white'>{country}, {city}</span>
             </div>
          </div>
+
+         <GameAward />
          
       </div>
    )
