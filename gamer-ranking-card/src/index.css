@@ -19,7 +19,7 @@ body {
 }
 
 .content {
-   @apply max-w-xs md:max-w-sm;
+   @apply max-w-xs md:max-w-3xl;
 }
 
 .additional {
