@@ -1,9 +1,9 @@
 import React from 'react';
 import { UilBookmark, UilHeart, UilComment } from '@iconscout/react-unicons'
 
-const CardAction = ({className, save, like, comment, iconSize}) => {
+const CardAction = ({ save, like, comment, iconSize}) => {
   return (
-    <div className={`flex items-center text-white ${className}`}>
+    <div className={`pt-2 pb-3 bg-green-500 justify-around flex items-center text-white`}>
       <span className='text-sm flex flex-col gap-1 items-center'>
          {save}
          <UilBookmark size={iconSize}/>

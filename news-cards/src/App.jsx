@@ -21,7 +21,7 @@ function App() {
         <CardImage src={Boxing} />
 
         <div className='flex flex-col absolute bottom-0 left-0 z-20'>
-          <CardAction iconSize={24} comment={'8'} like={'47'} save={'0'} className={'py-2 bg-green-500 justify-around'}/>
+          <CardAction iconSize={24} comment={'8'} like={'47'} save={'0'}/>
 
           <CardFooter
             className={'pt-4 pb-5 px-5 bg-white relative'}
