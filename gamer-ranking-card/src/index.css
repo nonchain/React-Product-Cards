@@ -11,5 +11,26 @@
 
 body {
    background-color: #16213E;
+   height: 100vh;
    font-family: 'Montserrat Alternates', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.content {
+   @apply max-w-xs md:max-w-sm;
+}
+
+.additional {
+   transition: 0.82s ease-in-out;
+}
+
+.additional::after {
+   content: '';
+   @apply w-[92%] h-[2px] bg-[#00000022] absolute left-[50%] bottom-[112px] translate-x-[-50%];
+}
+
+.card:hover > .additional {
+   @apply h-full;
 }
