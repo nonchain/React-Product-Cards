@@ -32,3 +32,12 @@ body {
   top: 3px;
   z-index: -1;
 }
+
+
+.details {
+  transition: 0.2s ease-out;
+}
+
+.card:hover > .details {
+  @apply translate-y-0;
+}
