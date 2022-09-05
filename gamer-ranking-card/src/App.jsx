@@ -23,7 +23,7 @@ function App() {
             joinDate={'2022/5'}
             city={'Abhar'}
             country={'Iran'}
-            className='absolute bottom-[108px]'
+            className='w-full absolute bottom-[108px]'
           />
 
           <GamerStatus avatarUrl={GamerBoyAvatar} level='13' score='5,321' className='w-full absolute bottom-6' />
