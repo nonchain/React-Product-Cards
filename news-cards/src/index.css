@@ -16,4 +16,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
+}
+
+.content {
+  @apply w-[420px] grid gap-4;
+}
+
+.day::after {
+  content: '12';
+  color: #00000044;
+  filter: blur(1px);
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  z-index: -1;
 }
